@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <WeCode_PromotionSchedule>
+            <active>true</active>
+            <codePool>community</codePool>
+        </WeCode_PromotionSchedule>
+    </modules>
+</config>

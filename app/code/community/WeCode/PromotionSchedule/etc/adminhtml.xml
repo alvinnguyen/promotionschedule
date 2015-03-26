@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <wecode_menu module="wecode_promotionschedule">
+            <title>WeCode</title>
+            <sort_order>90</sort_order>
+            <children>
+                <promotionschedule_group module="wecode_promotionschedule">
+                    <title>Promotion Schedule</title>
+                    <sort_order>100</sort_order>
+                    <children>
+                        <list module="wecode_promotionschedule">
+                            <title>View Scheduled Promotions</title>
+                            <sort_order>10</sort_order>
+                            <action>promotionschedule/index/index</action>
+                        </list>
+                        <new module="wecode_promotionschedule">
+                            <title>New Promotion Schedule</title>
+                            <sort_order>20</sort_order>
+                            <action>promotionschedule/index/new</action>
+                        </new>
+                    </children>
+                </promotionschedule_group>
+            </children>
+        </wecode_menu>
+    </menu>
+
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <wecode_menu>
+                        <children>
+                            <promotionschedule_group translate="title" module="wecode_promotionschedule">
+                                <title>Promotion Schedule</title>
+                                <sort_order>1000</sort_order>
+                                <children>
+                                    <list translate="title">
+                                        <title>View Scheduled Promotions</title>
+                                    </list>
+                                    <new translate="title">
+                                        <title>New Promotion Schedule</title>
+                                    </new>
+                                </children>
+                            </promotionschedule_group>
+                        </children>
+                    </wecode_menu>
+                    <!--<system>-->
+                        <!--<children>-->
+                            <!--<config>-->
+                                <!--<children>-->
+                                    <!--<factoryx_wecode_promotionschedule translate="title">-->
+                                        <!--<title>Instagram Connect</title>-->
+                                    <!--</factoryx_wecode_promotionschedule>-->
+                                <!--</children>-->
+                            <!--</config>-->
+                        <!--</children>-->
+                    <!--</system>-->
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

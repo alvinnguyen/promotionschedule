@@ -8,11 +8,5 @@
             "name":"Alvin Nguyen",
             "email":"alvin@alvinnguyen.net"
         }
-    ],
-    "extra": {
-        "map": [
-            ["app/code/community/Wecode/*", "app/code/community/Wecode"],
-            ["app/etc/modules/*", "app/etc/modules"]
-        ]
-    }
+    ]
 }

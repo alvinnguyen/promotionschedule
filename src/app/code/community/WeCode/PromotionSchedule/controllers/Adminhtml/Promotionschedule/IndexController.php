@@ -5,7 +5,7 @@
  * Why:  
  */
 
-class WeCode_PromotionSchedule_Adminhtml_IndexController extends Mage_Adminhtml_Controller_Action {
+class WeCode_PromotionSchedule_Adminhtml_Promotionschedule_IndexController extends Mage_Adminhtml_Controller_Action {
 
     public function indexAction()
     {

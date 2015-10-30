@@ -40,13 +40,13 @@
     </global>
     <admin>
         <routers>
-            <list>
-                <use>admin</use>
+            <adminhtml>
                 <args>
-                    <frontName>promotionschedule</frontName>
-                    <module>WeCode_PromotionSchedule_Adminhtml</module>
+                    <modules>
+                        <promotionschedule after="Mage_Adminhtml">WeCode_PromotionSchedule_Adminhtml</promotionschedule>
+                    </modules>
                 </args>
-            </list>
+            </adminhtml>
         </routers>
     </admin>
     <crontab>
